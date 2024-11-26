@@ -1,3 +1,6 @@
+html {
+    display: flex;
+}
 html, body {
     background-color: rgb(26, 26, 26);
     margin: 0%;
@@ -7,6 +10,7 @@ header {
     background-color: gray;
     width: 100%;
     height: fit-content;
+    flex-direction: row-reverse;
 }
 header a {
     text-decoration: none;
