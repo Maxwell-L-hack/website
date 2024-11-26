@@ -6,4 +6,5 @@ html, body {
 header {
     background-color: gray;
     width: 100%;
+    height: fit-content;
 }
