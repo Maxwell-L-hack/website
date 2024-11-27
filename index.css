@@ -2,12 +2,13 @@ html {
     display: flex;
 }
 html, body {
-    background-color: rgb(26, 26, 26);
+    background-image: linear-gradient(rgb(128, 128, 128), rgb(58, 58, 58));
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0%;
     padding: 0%;
 }
 header {
-    background-color: gray;
     width: 100vw;
     height: fit-content;
     display: flex;
@@ -16,4 +17,5 @@ header {
 header a {
     text-decoration: none;
     color: white;
+    padding: 1%;
 }
