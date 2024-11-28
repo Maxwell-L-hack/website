@@ -1,3 +1,9 @@
+@font-face {
+    font-family: LavishlyYoursRegular;
+    src: url(src/LavishlyYours-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 html {
     display: flex;
 }
@@ -7,11 +13,11 @@ body {
     size: 100%;
 }
 header {
-    background-image: linear-gradient(rgb(128, 128, 128), rgb(58, 58, 58));
     width: 100vw;
     height: fit-content;
     display: flex;
     flex-direction: row-reverse;
+    font-family: LavishlyYoursRegular;
 }
 header a {
     text-decoration: none;
