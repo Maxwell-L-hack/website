@@ -9,14 +9,16 @@
     margin: 0%;
     padding: 0%;
 }
+
 html {
     display: flex;
-}
+
 body {
     background-color: rgb(58, 58, 58);
     padding: 0%;
     size: 100%;
 }
+
 header {
     width: 100vw;
     height: fit-content;
@@ -24,8 +26,16 @@ header {
     flex-direction: row-reverse;
     font-family: LavishlyYoursRegular;
 }
+
 header a {
     text-decoration: none;
     color: white;
     padding: 1%;
+}
+
+body div {
+    position: fixed;
+    top: 50%;
+    left: 35%;
+    
 }
