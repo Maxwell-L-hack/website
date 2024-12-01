@@ -14,7 +14,8 @@ html {
     display: flex;
 }
 body {
-    background-color: rgb(58, 58, 58);
+    background-image: linear-gradient(rgb(128, 128, 128), rgb(58, 58, 58), rgb(128, 128, 128));
+    background-repeat: repeat;
     padding: 0%;
     size: 100%;
 }
