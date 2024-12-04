@@ -1,9 +1,15 @@
 @font-face {
     font-family: LavishlyYoursRegular;
-    src: url(src/LavishlyYours-Regular.ttf) format('truetype');
+    src: url(src/fonts/LavishlyYours-Regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: CalligraffittiRegular;
+    src: url(src/fonts/Calligraffitti-Regular.ttf) format('truetype');
+}
+
 * {
     box-sizing: border-box;
     margin: 0%;
@@ -14,8 +20,7 @@ html {
     display: flex;
 }
 body {
-    background-image: linear-gradient(rgb(128, 128, 128), rgb(58, 58, 58), rgb(128, 128, 128));
-    background-repeat: repeat;
+    background-color: rgb(98, 98, 98);
     padding: 0%;
     size: 100%;
 }
@@ -38,4 +43,5 @@ body div {
     position: fixed;
     top: 50%;
     left: 35%;
+    font-family: CalligraffittiRegular;
 }
