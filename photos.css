@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    gap: 10px;
+}
+
+.image {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
