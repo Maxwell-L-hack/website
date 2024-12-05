@@ -2,6 +2,10 @@
     display: grid;
     gap: 10px;
 }
+body div img{
+    max-width: 100%;
+    height: auto;
+ }
 
 .image {
     background-color: #f0f0f0;
