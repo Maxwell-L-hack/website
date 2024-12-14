@@ -8,3 +8,37 @@ h1 {
     font-family: TrainOne-Regular;
     text-align: center;
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    display: flex;
+}
+body {
+    background-color: rgb(98, 98, 98);
+    padding: 0%;
+    size: 100%;
+}
+
+header {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: LavishlyYoursRegular;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+}
+
+body div {
+    text-align: center;
+    font-family: CalligraffittiRegular;
+}
