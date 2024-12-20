@@ -39,6 +39,10 @@ header a {
     padding: 1%;
 }
 
+h2 {
+    align-self: center;
+}
+
 body div {
     text-align: center;
     font-family: CalligraffittiRegular;
